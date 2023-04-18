@@ -7,6 +7,8 @@
       "@/*": ["./src/*"]
     }
   },
+  "types": ["node", "vite/client"],
+  "exclude": ["public/**/*", "node_modules"],
 
   "references": [
     {
