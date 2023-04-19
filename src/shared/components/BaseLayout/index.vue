@@ -2,10 +2,12 @@
   import { defineComponent } from "vue";
 
   export default defineComponent({
-    name: "AuthPage",
+    name: "BaseInput",
   });
 </script>
 
 <template>
-  <h1>Auth</h1>
+  <slot name="header" />
+  <slot name="main" />
+  <slot name="footer" />
 </template>
