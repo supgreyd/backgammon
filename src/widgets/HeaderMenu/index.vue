@@ -1,11 +1,13 @@
 <script>
   import HeaderMenuItem from "@/entities/HeaderMenuItem/index.vue";
+  import SignOut from "@/features/SignOut/index.vue";
   import { headerMenu } from "@/widgets/HeaderMenu/model";
   export default {
     name: "HeaderMenu",
 
     components: {
       HeaderMenuItem,
+      SignOut,
     },
 
     setup() {
@@ -32,6 +34,7 @@
             />
           </div>
         </div>
+        <SignOut />
       </div>
     </div>
   </nav>
